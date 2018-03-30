@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class=box>
+
+<h1>Gainesville's Local Coffee Shops</h1>
+
+<p>Click on the coffee shop's name to learn  more. </p>
+
+<!-- pairs is a list that must be sent here by a route function
+     The list will contain 45 pairs: a presidency number, and a
+     president's name -->
+
+     <!--       later editing change         -->
+     <!--  url_for( 'detail', num=pair[0] )  -->
+     <!--    inside double curly braces      -->
+
+    <ul>
+    {% for pair in pairs %}
+        <li><a href="{{ url_for( 'detail', num=pair[0] ) }}">{{ pair[1] }}</a></li>
+    {% endfor %}
+    </ul>
+
+</div>
+{% endblock %}

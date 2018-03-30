@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Cherry+Swash|PT+Sans" rel="stylesheet">
+
+	<title>Karma Cream</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Jinja2 directives: page contents will go between them -->
+  
+
+	<!-- pres - is the full dict for a president, sent here by the route -->
+
+<div class=page>
+
+<h1>Karma Cream</h1>
+
+<div class=container>
+<ul>
+	<li> Location: 607 W University Ave, Gainesville, FL 32601  </li>
+	<li> Yelp Rating: 4 stars</li>
+	<li> Try this: an affogato with coconut-based vegan ice cream</li>
+</ul>
+
+<p><a href="../index.html">Click here to return to the list</a> to check out another coffee shop.</p>
+
+</div>
+</div>
+
+
+</div>
+
+</body>
+</html>
